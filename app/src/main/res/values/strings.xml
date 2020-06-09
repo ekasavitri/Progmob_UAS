@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Astungkara Fix</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+    <string name="slide_1_title">DEWATA KOS</string>
+    <string name="slide_1_desc">Temukan Kost yang Nyaman Untuk Beristirahat</string>
+    <string name="slide_2_title">DEWATA KOS</string>
+    <string name="slide_2_desc">Aplikasi Kos Murah, Murah, dan Terpecaya </string>
+
+    <string name="slide_3_title">Dewata Kos</string>
+    <string name="slide_3_desc">Aplikasi Anak Kost Nomor 1 di Pulau Dewata</string>
+
+    <string name="slide_4_title">GUIDE</string>
+    <string name="slide_4_desc">Cari Kost Sesuai Kebutuhan dengan Mudah </string>
+
+    <string name="deskripsi_kos1">Alamat Kost \t: Jalan Pangeran Jayakarta 14 No 23, Kecamatan Kuta, Kelurahan Mangga Dua Jimbaran , Badung - Bali 10730 \n Nomor Telepon \t: 08111949406, 08111949406 \n Harga Sewa \t: Rp 2,000,000 - Deposit 1 juta \n Tempat Kost Untuk \t: Pria, wanita, pasutri, karyawan, karyawati \n Ukuran Kamar \t: Deluxe 4,3m x 3m, Deluxe+ 4,3m x 3,5m, Exclusive 4,3m x 4,3m \n Jumlah Kamar \t: 25 \n Fasilitas \t: lobby, spring bed full set, nakas, TV 32inc, bantal, lemari, meja, kursi belajar, rak sepatu, keset kamar mandi, wifi 100mbps unlimited, water heater, laundry 2stel / hari, cctv 24 jam, parkir motor, kamar mandi dalam, wastafel \n E-mail \t: welive.coliving@gmail.com</string>
+</resources>

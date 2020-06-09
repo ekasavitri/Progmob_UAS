@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.astungkarafix"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:5:5-42:19
+12        android:allowBackup="true"
+12-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.dewatakos.LoginRegister.RegisterActivity" />
+21-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:12:9-98
+21-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:12:19-86
+22        <activity android:name="com.example.dewatakos.LoginRegister.LoginActivity" >
+22-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:13:9-19:20
+22-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:13:19-83
+23            <intent-filter>
+23-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:15:17-69
+24-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.DEFAULT" />
+26-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:17:17-76
+26-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:17:27-73
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.example.dewatakos.Account.EditAccount" />
+29-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:20:9-78
+29-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:20:19-75
+30        <activity
+30-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:21:9-28:20
+31            android:name="com.example.dewatakos.SplashScreenActivity"
+31-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:21:19-76
+32            android:theme="@style/Theme.Design.Light.NoActionBar" >
+32-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:22:13-66
+33            <intent-filter>
+33-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:15:17-69
+34-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:15:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:26:17-77
+36-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.example.dewatakos.Home.BookingForm" />
+39-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:29:9-75
+39-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:29:19-72
+40        <activity android:name="com.example.dewatakos.Home.KosRekomendasi.DetailRekomendasiActivity" />
+40-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:30:9-104
+40-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:30:19-101
+41        <activity android:name="com.example.dewatakos.Home.KosTerdekat.DetailTerdekatActivity" />
+41-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:31:9-98
+41-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:31:19-95
+42        <activity android:name="com.example.dewatakos.Home.KosTerdekat.GridTerdekatActivity" />
+42-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:32:9-96
+42-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:32:19-93
+43        <activity android:name="com.example.dewatakos.Home.HomeDetailActivity" />
+43-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:33:9-82
+43-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:33:19-79
+44        <activity android:name="com.example.dewatakos.Home.KosPopuler.DetailPopulerActivity" />
+44-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:34:9-96
+44-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:34:19-93
+45        <activity android:name="com.example.dewatakos.Home.KosRekomendasi.GridRekomendasiActivity" />
+45-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:35:9-102
+45-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:35:19-99
+46        <activity android:name="com.example.dewatakos.Home.KosPopuler.GridPopulerActivity" />
+46-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:36:9-94
+46-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:36:19-91
+47        <activity android:name="com.example.dewatakos.Account.AccountActivity" />
+47-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:37:9-82
+47-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:37:19-79
+48        <activity android:name="com.example.dewatakos.Wishlist.WishlistActivity" />
+48-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:38:9-84
+48-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:38:19-81
+49        <activity android:name="com.example.dewatakos.Home.HomeActivity" >
+49-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:39:9-41:20
+49-->C:\Users\User\Documents\KULIAH\SEMESTER 4\Program Progmob\baru1\AstungkaraFix\app\src\main\AndroidManifest.xml:39:19-73
+50        </activity>
+51    </application>
+52
+53</manifest>

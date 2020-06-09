@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.astungkarafix"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.dewatakos.LoginRegister.RegisterActivity" />
+        <activity android:name="com.example.dewatakos.LoginRegister.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dewatakos.Account.EditAccount" />
+        <activity
+            android:name="com.example.dewatakos.SplashScreenActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dewatakos.Home.BookingForm" />
+        <activity android:name="com.example.dewatakos.Home.KosRekomendasi.DetailRekomendasiActivity" />
+        <activity android:name="com.example.dewatakos.Home.KosTerdekat.DetailTerdekatActivity" />
+        <activity android:name="com.example.dewatakos.Home.KosTerdekat.GridTerdekatActivity" />
+        <activity android:name="com.example.dewatakos.Home.HomeDetailActivity" />
+        <activity android:name="com.example.dewatakos.Home.KosPopuler.DetailPopulerActivity" />
+        <activity android:name="com.example.dewatakos.Home.KosRekomendasi.GridRekomendasiActivity" />
+        <activity android:name="com.example.dewatakos.Home.KosPopuler.GridPopulerActivity" />
+        <activity android:name="com.example.dewatakos.Account.AccountActivity" />
+        <activity android:name="com.example.dewatakos.Wishlist.WishlistActivity" />
+        <activity android:name="com.example.dewatakos.Home.HomeActivity" >
+        </activity>
+    </application>
+
+</manifest>

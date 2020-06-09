@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_idrek"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="170dp"
+    android:layout_height="130dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    cardview:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp">
+
+
+        <ImageView
+            android:id="@+id/grid_rekomenfotokos"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            cardview:srcCompat="@mipmap/ic_launcher">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/grid_rekomennamakos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="13sp"
+            android:textColor="@color/colorAccent"
+            android:text="Nama Kos"
+            android:gravity="fill">
+        </TextView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
